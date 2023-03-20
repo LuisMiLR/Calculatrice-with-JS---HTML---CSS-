@@ -1,0 +1,141 @@
+//document.addEventListener('DOMContentLoaded', () => {
+const container = document.querySelector('.container');
+
+const divId = document.createElement("div");
+container.appendChild(divId);
+divId.id = 'display';
+
+let buttons = document.createElement("div");
+buttons.classList.add("buttons");
+container.appendChild(buttons);
+
+const button = document.createElement('div');
+button.className = "bouton";
+button.textContent = "C";
+buttons.appendChild(button);
+
+const button1 = document.createElement('div');
+button1.className = "bouton1";
+button1.textContent = "/";
+buttons.appendChild(button1);
+
+const button2 = document.createElement('div');
+button2.className = "bouton2";
+button2.textContent = "*";
+buttons.appendChild(bouton2);
+
+const button3 = document.createElement('div');
+button3.className = "bouton3";
+button3.textContent = "CE";
+buttons.appendChild(bouton3);
+
+const button4 = document.createElement('div');
+button4.className = "bouton4";
+button4.textContent = "7";
+buttons.appendChild(bouton4);
+
+const button5 = document.createElement('div');
+button5.className = "bouton5";
+button5.textContent = "8";
+buttons.appendChild(bouton5);
+
+const button6 = document.createElement('div');
+button6.className = "bouton6";
+button6.textContent = "9";
+buttons.appendChild(bouton6);
+
+const button7 = document.createElement('div');
+button7.className = "bouton7";
+button7.textContent = "-";
+buttons.appendChild(bouton7);
+
+const button8 = document.createElement('div');
+button8.className = "bouton8";
+button8.textContent = "4";
+buttons.appendChild(bouton8);
+
+const button9 = document.createElement('div');
+button9.className = "bouton9";
+button9.textContent = "5";
+buttons.appendChild(bouton9);
+
+const button10 = document.createElement('div');
+button10.className = "bouton10";
+button10.textContent = "6";
+buttons.appendChild(bouton10);
+
+const button11 = document.createElement('div');
+button11.className = "bouton11";
+button11.textContent = "+";
+buttons.appendChild(boutn11);
+
+const button12 = document.createElement('div');
+button12.className = "bouton12";
+button12.textContent = "1";
+buttons.appendChild(bouton12);
+
+const button13 = document.createElement('div');
+button13.className = "bouton13";
+button13.textContent = "2";
+buttons.appendChild(bouton13);
+
+const button14 = document.createElement('div');
+button14.className = "bouton14";
+button14.textContent = "3";
+buttons.appendChild(bouton14);
+
+const button15 = document.createElement('div');
+button15.className = "bouton15";
+button15.textContent = ".";
+buttons.appendChild(bouton15);
+
+const button16 = document.createElement('div');
+button16.className = "bouton16";
+button16.textContent = "(";
+buttons.appendChild(bouton16);
+
+const button17 = document.createElement('div');
+button17.className = "bouton17";
+button17.textContent = "0";
+buttons.appendChild(bouton17);
+
+const button18 = document.createElement('div');
+button18.className = "bouton18";
+button18.textContent = ")";
+buttons.appendChild(bouton18);
+
+const button19 = document.createElement("div");
+button19.className = "bouton19";
+button19.id = "egal";
+button19.textContent = "=";
+buttons.appendChild(bouton19);
+
+let display = document.getElementById('display');
+buttons = document.getElementsByClassName('bouton');
+console.log(buttons);
+
+/*buttons = Array.from(document.getElementsByClassName('bouton, bouton1, bouton2, bouton3, bouton4, bouton5, bouton6, bouton7, bouton8; bouton9, bouton10,bouton11, bouton12, bouton13, bouton14, bouton15, bouton16, bouton17, bouton18, bouton19'));
+
+buttons.map( button => { 
+    button.addEventListener('click', (e) => {
+        switch(e.target.innerText){
+            case 'C':
+                display.innerText = '';
+                break;
+            case 'CE':  
+                if(display.innerText){ 
+                    display.innerText = display.innerText.slice(0,-1);
+                }
+                break;
+            case '=': 
+                try{
+                    display;innerText = eval(display.innerText);
+                } catch {
+                    display;innerText = 'Error';
+                }
+                break;    
+            default:
+                display.innerText += e.target.innerText;        
+        }
+    }); 
+});*/

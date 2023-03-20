@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+
+#display {
+    text-align: right;
+    height: 170px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.bouton,
+.bouton1, 
+.bouton2, 
+.bouton3, 
+.bouton4, 
+.bouton5, 
+.bouton6, 
+.bouton7, 
+ .bouton8,
+ .bouton9,
+ .bouton10,
+ .bouton11,
+ .bouton12,
+ .bouton13,
+ .bouton14,
+ .bouton15,
+ .bouton16,
+ .bouton17,
+ .bouton18,
+ .bouton19{
+    border: 3.5px solid #999;
+    line-height: 63px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .button7:hover,  .button8:hover, .button9:hover, .button10:hover, .button11:hover, .button12:hover, .button13:hover,  .button14:hover, .button15:hover, .button16:hover, .button17:hover, .button18:hover, .button19:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+
+#display {
+    text-align: right;
+    height: 170px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.bouton,
+.bouton1, 
+.bouton2, 
+.bouton3, 
+.bouton4, 
+.bouton5, 
+.bouton6, 
+.bouton7,
+.bouton8,
+.bouton9,
+.bouton10,
+.bouton11,
+.bouton12,
+.bouton13,
+.bouton14,
+.bouton15,
+.bouton16,
+.bouton17,
+.bouton18,
+.bouton19
+{
+    border: 3.5px solid #999;
+    line-height: 63px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.bouton:hover,
+.buotton1:hover,
+.buottno2:hover,
+.buottno3:hover,
+.buottno4:hover,
+.buottno5:hover,
+.buottno6:hover,
+.buottno7:hover,
+.buottno8:hover,
+.buottno9:hover,
+.butotoo10:hover,
+.butoto1o1:hover,
+.butoto1o2:hover,
+.butoto1o3:hover,
+.butoto1o4:hover,
+.butoto1o5:hover,
+.butoto1o6:hover,
+.butoto1o7:hover,
+.butoto1o8:hover,
+.butoto1o9:hover {
+    backoground-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
